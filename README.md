@@ -30,6 +30,32 @@
 a backend service using NestJS to manage user authentication, document management, and ingestion controls.
 
 
+## Authentication APIs:
+Signup, signin, verifyEmail, VerifyOTP, updateProfile (roles) and handle user
+roles (admin, editor, viewer).
+
+## User Management APIs:
+Admin-only functionality for managing user roles and permissions.
+
+## Document Management APIs:
+CRUD operations for documents, including the ability to upload documents.
+
+## Create Document Access :
+   Admin
+## Edit Documents Access :
+   Admin, Editor
+## Update Documents Status :
+   Admin
+## View Dcouments Access :
+   Admin, Editor, Viewer
+## Listing Documents Access :
+   Admin, Editor, Viewer
+
+
+## Ingestion Trigger API:
+Allows triggering the ingestion process in the Python backend, possibly via a API call.
+
+
 ## Project setup
 
 ```bash
